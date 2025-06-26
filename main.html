@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusiConnect</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+    <h1>MusiConnect</h1>
+    <form>
+        <input type="search" placeholder="Search for music topics ">
+        <button type="submit">Search </button>
+    </form>
+        </div>
+        <div class="botao-menu">
+            <button type="button"> Open Menu </button>
+        </div>
+        <nav class="container">
+            <ul class="menu">
+                <li>
+                    Online Courses
+                    <ul class="submenu">
+                        <li>
+                        <a href="#">Music Theory</a>
+                        </li>
+                        <li>
+                            <a href="#">Music Production</a>
+                        </li>
+                        <li>
+                            <a href="#">Music Marketing</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Digital Resources
+                    <ul class="submenu">
+                        <li>
+                            <a href="#">Recording Studios</a>
+                        </li>
+                        <li>
+                            <a href="#">Equipment Rental</a>
+                        </li>
+                        <li>
+                            <a href="#">Music Video Production</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="clear"></div>
+        </nav>
+    </header>
+    <div class="container conteudo">
+        <main>
+            <section class="destaque">
+                <h2>About Us</h2>
+                <article class="section">
+                    <a href="#">
+                        <img src="./Imagens/Imagem 1.jpg" />
+                        <h3>
+                            At MusiConnect, we empower musicians, studios, and educators by providing courses, mixing services, video production support, and equipment rental. Our goal is to strengthen the music community by fostering collaboration, professional growth, and creative connections across all areas of music.
+                        </h3>
+                    </a>
+                </article>
+            </section>
+            <section>
+                <h2>Music Maker's Academy</h2>
+                <div class="sections">
+                <article class="section">
+                    <a href="#">
+                        <img src="./Imagens/Imagem 2.jpg" />
+                        <h3>
+                            Introduction to Music Production
+                        </h3>
+                        <h4>
+                            Learn the basics of music production, including beat making, sound design, and mixing techniques. Perfect for beginners who want to start creating their own tracks at home.
+                        </h4>
+                        </a>
+                        <button type="button"> Add to Cart</button>
+                </article>
+                <article class="section">
+                    <a href="#">
+                        <img src="./Imagens/Imagem 4.jpg" />
+                        <h3>
+                            Vocal Recording Essentials Workshop
+                        </h3>
+                        <h4>
+                            A practical workshop focused on vocal recording techniques: proper microphone use, acoustic treatment, clean vocal capture, and basic editing for professional sound.
+                        </h4>
+                        </a>
+                        <button type="button"> Add to Cart</button>
+                </article>
+                <article class="section">
+                    <a href="#">
+                        <img src="./Imagens/Imagem 8.jpg" />
+                        <h3>
+                            DJ & Live Mixing Masterclass
+                        </h3>
+                        <h4>
+                            A complete course on DJing and live mixing, covering smooth transitions, live effects, and creative setlist building for professional performances.
+                        </h4>
+                        </a>
+                        <button type="button"> Add to Cart</button>
+                </article>
+                <article class="section">
+                    <a href="#">
+                        <img src="./Imagens/Imagem 10.jpg" />
+                        <h3>
+                            Piano & Keyboard Fundamentals
+                        </h3>
+                        <h4>
+                            A beginner-friendly course covering basic chords, scales, sheet music reading, and essential playing techniques to start performing popular songs.
+                        </h4>
+                        </a>
+                            <button type="button">Add to Cart</button>
+                </article>
+            </section>
+        </main>
+        <aside class="novidades">
+            <section>
+                <h2>Collab Sound</h2>
+                <article class="section">
+                    <a href="#">
+                        <img src="./Imagens/Imagem 3.jpg" />
+                        <h3>
+                            Find Your Music Partner
+                        </h3>
+                    </a>
+                    <button type="button">Find Out More</button>
+                </article>
+                <article class="section">
+                    <a href="#">
+                        <img src="./Imagens/Imagem 7.jpg" />
+                        <h3>
+                            Studio Session Booking
+                        </h3>
+                    </a>
+                    <button type="button">Find Out More</button>
+                </article>
+                <article class="section">
+                    <a href="#">
+                        <img src="./Imagens/Imagem 9.jpg" />
+                        <h3>
+                            Instrument & Gear Rental
+                        </h3>
+                    </a>
+                    <button type="button">Find Out More</button>
+                </article>
+                </div>
+            </section>
+        </aside>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $('.botao-menu button').click(function(){
+                $('.menu').slideToggle();
+            })
+        })
+    </script>
+</body>
+</html>
